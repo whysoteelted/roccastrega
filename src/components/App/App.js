@@ -8,10 +8,8 @@ export default function App() {
     <div className="app-wrapper">
       <Router>
         <div className="root-wrapper">
-          <div className="header-wrapper">
-            <Topbar />
-          </div>
           <div className="main-wrapper">
+            <Topbar />
             <Routes>
               <Route path="/" element={<Home />} />
             </Routes>
